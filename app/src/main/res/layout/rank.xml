@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rank_background" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="1400px"
+        android:layout_height="wrap_content"
+        android:onClick="onStartMenu"
+        android:text="めにゅーへもどる"
+        android:layout_marginBottom="21dp"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:layout_width="1000px"
+        android:id="@+id/rankView2"
+        android:layout_height="200px"
+        android:text="すこあ"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="150px"
+        android:layout_below="@+id/rankView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView android:layout_width="1000px"
+        android:id="@+id/rankView3"
+        android:layout_height="200px"
+        android:text="すこあ"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="150px"
+        android:layout_below="@+id/rankView2"
+        android:layout_alignStart="@+id/rankView2"
+        android:layout_marginTop="23dp" />
+
+    <TextView android:layout_width="1000px"
+        android:id="@+id/rankView1"
+        android:layout_height="200px"
+        android:text="すこあ"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="150px"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/rankView2"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
